@@ -20,7 +20,6 @@ public class RestaurantController {
         this.restaurantService = restaurantService;
     }
 
-
     @GetMapping("/restaurants")
     public List<Restaurant> list(){
         return restaurantService.getRestaurantList();
