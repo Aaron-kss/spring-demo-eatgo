@@ -36,5 +36,6 @@ dependencies {
 test {
 	useJUnitPlatform {
 		includeEngines 'junit-vintage'
+		useJUnitPlatform()
 	}
 }
