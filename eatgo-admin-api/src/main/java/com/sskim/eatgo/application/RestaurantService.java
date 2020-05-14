@@ -10,25 +10,14 @@ import java.util.List;
 public class RestaurantService {
 
     private final RestaurantRepository restaurantRepository;
-    private final MenuItemRepository menuItemRepository;
-    private final ReviewRepository reviewRepository;
 
-    public RestaurantService(RestaurantRepository restaurantRepository,
-                             MenuItemRepository menuItemRepository,
-                             ReviewRepository reviewRepository) {
-        this.menuItemRepository = menuItemRepository;
+    public RestaurantService(RestaurantRepository restaurantRepository) {
         this.restaurantRepository = restaurantRepository;
-        this.reviewRepository = reviewRepository;
     }
 
     public Restaurant getRestaurantById(Long id) {
         Restaurant restaurant = restaurantRepository.findById(id)
                 .orElseThrow(() -> new RestaurantNotFoundException(id));
-        List<MenuItem> menuItemList = menuItemRepository.findAllByRestaurantId(id);
-        restaurant.setMenuItemList(menuItemList);
-
-        List<Review> reviews = reviewRepository.findAllByRestaurantId(id);
-        restaurant.setReviews(reviews);
 
         return restaurant;
     }

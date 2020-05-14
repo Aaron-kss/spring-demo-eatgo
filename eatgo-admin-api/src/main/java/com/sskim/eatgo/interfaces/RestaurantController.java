@@ -2,7 +2,6 @@ package com.sskim.eatgo.interfaces;
 
 import com.sskim.eatgo.application.RestaurantService;
 import com.sskim.eatgo.domain.Restaurant;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,8 +14,12 @@ import java.util.List;
 @RestController
 public class RestaurantController {
 
-    @Autowired
-    private RestaurantService restaurantService;
+    private final RestaurantService restaurantService;
+
+    public RestaurantController(RestaurantService restaurantService){
+        this.restaurantService = restaurantService;
+    }
+
 
     @GetMapping("/restaurants")
     public List<Restaurant> list(){
