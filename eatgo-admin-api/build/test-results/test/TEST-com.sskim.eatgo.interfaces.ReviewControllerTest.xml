@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sskim.eatgo.interfaces.ReviewControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-14T06:15:52" hostname="aaronkssui-MacBook-Pro.local" time="0.006">
+<testsuite name="com.sskim.eatgo.interfaces.ReviewControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-14T06:43:08" hostname="aaronkssui-MacBook-Pro.local" time="0.006">
   <properties/>
   <testcase name="list" classname="com.sskim.eatgo.interfaces.ReviewControllerTest" time="0.006"/>
   <system-out><![CDATA[
@@ -11,13 +11,13 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.6.RELEASE)
 
-2020-05-14 15:15:51.715  INFO 48064 --- [    Test worker] c.s.e.interfaces.ReviewControllerTest    : Starting ReviewControllerTest on aaronkssui-MacBook-Pro.local with PID 48064 (started by aaron.kss in /Users/aaron.kss/dev/spring-demo-projects/eatgo/eatgo-admin-api)
-2020-05-14 15:15:51.715  INFO 48064 --- [    Test worker] c.s.e.interfaces.ReviewControllerTest    : The following profiles are active: test
-2020-05-14 15:15:52.046  INFO 48064 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-05-14 15:15:52.156  INFO 48064 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2020-05-14 15:15:52.156  INFO 48064 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-05-14 15:15:52.162  INFO 48064 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
-2020-05-14 15:15:52.173  INFO 48064 --- [    Test worker] c.s.e.interfaces.ReviewControllerTest    : Started ReviewControllerTest in 0.476 seconds (JVM running for 5.207)
+2020-05-14 15:43:08.155  INFO 51045 --- [    Test worker] c.s.e.interfaces.ReviewControllerTest    : Starting ReviewControllerTest on aaronkssui-MacBook-Pro.local with PID 51045 (started by aaron.kss in /Users/aaron.kss/dev/spring-demo-projects/eatgo/eatgo-admin-api)
+2020-05-14 15:43:08.155  INFO 51045 --- [    Test worker] c.s.e.interfaces.ReviewControllerTest    : The following profiles are active: test
+2020-05-14 15:43:08.339  INFO 51045 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-14 15:43:08.420  INFO 51045 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-14 15:43:08.420  INFO 51045 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-14 15:43:08.425  INFO 51045 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2020-05-14 15:43:08.434  INFO 51045 --- [    Test worker] c.s.e.interfaces.ReviewControllerTest    : Started ReviewControllerTest in 0.293 seconds (JVM running for 4.725)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

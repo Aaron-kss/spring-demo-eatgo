@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sskim.eatgo.interfaces.RestaurantControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-14T06:16:00" hostname="aaronkssui-MacBook-Pro.local" time="0.204">
+<testsuite name="com.sskim.eatgo.interfaces.RestaurantControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-14T06:43:15" hostname="aaronkssui-MacBook-Pro.local" time="0.043">
   <properties/>
-  <testcase name="list" classname="com.sskim.eatgo.interfaces.RestaurantControllerTest" time="0.174"/>
-  <testcase name="detailWithNotExisted" classname="com.sskim.eatgo.interfaces.RestaurantControllerTest" time="0.017"/>
-  <testcase name="detailWithExisted" classname="com.sskim.eatgo.interfaces.RestaurantControllerTest" time="0.011"/>
-  <system-out><![CDATA[15:15:58.799 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.sskim.eatgo.interfaces.RestaurantControllerTest]
-15:15:58.799 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.sskim.eatgo.interfaces.RestaurantControllerTest]
-15:15:58.799 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.sskim.eatgo.interfaces.RestaurantControllerTest]
-15:15:58.799 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.sskim.eatgo.interfaces.RestaurantControllerTest]
-15:15:58.802 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@17ecae3e testClass = RestaurantControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@408c129d testClass = RestaurantControllerTest, locations = '{}', classes = '{class com.sskim.eatgo.EatgoCustomerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@24de1097, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@f3e69f85, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@d377f1b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@138081ca, [ImportsContextCustomizer@76c315e5 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5718c743, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@660f5799, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@6f9a16ba], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
-15:15:58.804 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.sskim.eatgo.interfaces.RestaurantControllerTest]
-15:15:58.804 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.sskim.eatgo.interfaces.RestaurantControllerTest]
-15:15:58.918 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true, server.port=-1}
-
+  <testcase name="list" classname="com.sskim.eatgo.interfaces.RestaurantControllerTest" time="0.017"/>
+  <testcase name="detailWithNotExisted" classname="com.sskim.eatgo.interfaces.RestaurantControllerTest" time="0.016"/>
+  <testcase name="detailWithExisted" classname="com.sskim.eatgo.interfaces.RestaurantControllerTest" time="0.009"/>
+  <system-out><![CDATA[
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -21,13 +13,13 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.6.RELEASE)
 
-2020-05-14 15:15:59.326  INFO 48085 --- [    Test worker] c.s.e.i.RestaurantControllerTest         : Starting RestaurantControllerTest on aaronkssui-MacBook-Pro.local with PID 48085 (started by aaron.kss in /Users/aaron.kss/dev/spring-demo-projects/eatgo/eatgo-customer-api)
-2020-05-14 15:15:59.328  INFO 48085 --- [    Test worker] c.s.e.i.RestaurantControllerTest         : The following profiles are active: test
-2020-05-14 15:16:00.404  INFO 48085 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-05-14 15:16:00.632  INFO 48085 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2020-05-14 15:16:00.632  INFO 48085 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-05-14 15:16:00.646  INFO 48085 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 14 ms
-2020-05-14 15:16:00.675  INFO 48085 --- [    Test worker] c.s.e.i.RestaurantControllerTest         : Started RestaurantControllerTest in 1.748 seconds (JVM running for 3.535)
+2020-05-14 15:43:15.324  INFO 51065 --- [    Test worker] c.s.e.i.RestaurantControllerTest         : Starting RestaurantControllerTest on aaronkssui-MacBook-Pro.local with PID 51065 (started by aaron.kss in /Users/aaron.kss/dev/spring-demo-projects/eatgo/eatgo-customer-api)
+2020-05-14 15:43:15.325  INFO 51065 --- [    Test worker] c.s.e.i.RestaurantControllerTest         : The following profiles are active: test
+2020-05-14 15:43:15.579  INFO 51065 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-14 15:43:15.678  INFO 51065 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-14 15:43:15.678  INFO 51065 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-14 15:43:15.685  INFO 51065 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
+2020-05-14 15:43:15.695  INFO 51065 --- [    Test worker] c.s.e.i.RestaurantControllerTest         : Started RestaurantControllerTest in 0.389 seconds (JVM running for 3.114)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
