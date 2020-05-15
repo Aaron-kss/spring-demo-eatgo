@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sskim.eatgo.domain.RestaurantTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-14T06:43:11" hostname="aaronkssui-MacBook-Pro.local" time="0.002">
+<testsuite name="com.sskim.eatgo.domain.RestaurantTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-14T23:56:19" hostname="aaronkssui-MacBook-Pro.local" time="0.001">
   <properties/>
   <testcase name="creation" classname="com.sskim.eatgo.domain.RestaurantTests" time="0.001"/>
   <testcase name="information" classname="com.sskim.eatgo.domain.RestaurantTests" time="0.0"/>

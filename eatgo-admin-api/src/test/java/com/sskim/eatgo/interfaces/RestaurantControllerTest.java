@@ -1,7 +1,8 @@
 package com.sskim.eatgo.interfaces;
 
 import com.sskim.eatgo.application.RestaurantService;
-import com.sskim.eatgo.domain.*;
+import com.sskim.eatgo.domain.Restaurant;
+import com.sskim.eatgo.domain.RestaurantNotFoundException;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +13,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import static org.hamcrest.core.StringContains.containsString;
@@ -94,12 +94,13 @@ public class RestaurantControllerTest {
                     .id(1234L)
                     .name(restaurant.getName())
                     .address(restaurant.getAddress())
+                    .categoryId(restaurant.getCategoryId())
                     .build();
         });
 
         mvc.perform(post("/restaurants")
                 .contentType(MediaType.APPLICATION_JSON)
-                .content("{\"name\" : \"Beryong\", \"address\" : \"Busan\"}"))
+                .content("{\"name\" : \"Beryong\", \"address\" : \"Busan\", \"categoryId\":1}"))
                 .andExpect(status().isCreated())
                 .andExpect(header().string("location", "/restaurants/1234"))
                 .andExpect(content().string("{}"));
@@ -120,7 +121,7 @@ public class RestaurantControllerTest {
     public void updateWithValidData() throws Exception{
         mvc.perform(patch("/restaurants/1004")
                 .contentType(MediaType.APPLICATION_JSON)
-                .content("{\"name\":\"JOKER Bar\", \"address\":\"Busan\"}"))
+                .content("{\"name\":\"JOKER Bar\", \"address\":\"Busan\", \"categoryId\":1}"))
                 .andExpect(status().isOk());
 
         verify(restaurantService).updateRestaurant(1004L, "JOKER Bar", "Busan");

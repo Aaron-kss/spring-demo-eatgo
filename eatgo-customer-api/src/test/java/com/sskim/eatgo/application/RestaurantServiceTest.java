@@ -1,6 +1,5 @@
 package com.sskim.eatgo.application;
 
-import com.sskim.eatgo.application.RestaurantService;
 import com.sskim.eatgo.domain.*;
 import org.junit.Before;
 import org.junit.Test;
@@ -42,14 +41,20 @@ public class RestaurantServiceTest {
 
     private void mockRestaurantRepository() {
         List<Restaurant> restaurantList = new ArrayList<>();
+
         Restaurant restaurant = Restaurant.builder()
                 .id(1004L)
                 .name("Bob zip")
                 .address("Seoul")
+                .categoryId(1L)
                 .build();
         restaurantList.add(restaurant);
-        given(restaurantRepository.findAll()).willReturn(restaurantList);
-        given(restaurantRepository.findById(1004L)).willReturn(Optional.of(restaurant));
+
+        given(restaurantRepository.findByAddressContainingAndCategoryId("Seoul", 1L))
+                .willReturn(restaurantList);
+
+        given(restaurantRepository.findById(1004L))
+                .willReturn(Optional.of(restaurant));
     }
 
     private void mockMenuItemRepository(){
@@ -79,8 +84,12 @@ public class RestaurantServiceTest {
 
     @Test
     public void getRestaurantList(){
-        List<Restaurant> restaurantList = restaurantService.getRestaurantList();
+        String region = "Seoul";
+        Long categoryId = 1L;
+
+        List<Restaurant> restaurantList = restaurantService.getRestaurantList(region, categoryId);
         Restaurant restaurant = restaurantList.get(0);
+
         assertThat(restaurant.getId(), is(1004L));
     }
 

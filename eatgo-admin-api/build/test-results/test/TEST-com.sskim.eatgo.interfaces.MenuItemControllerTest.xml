@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sskim.eatgo.interfaces.MenuItemControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-14T06:43:07" hostname="aaronkssui-MacBook-Pro.local" time="0.013">
+<testsuite name="com.sskim.eatgo.interfaces.MenuItemControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-14T23:56:15" hostname="aaronkssui-MacBook-Pro.local" time="0.012">
   <properties/>
-  <testcase name="bulkUpdate" classname="com.sskim.eatgo.interfaces.MenuItemControllerTest" time="0.007"/>
+  <testcase name="bulkUpdate" classname="com.sskim.eatgo.interfaces.MenuItemControllerTest" time="0.006"/>
   <testcase name="list" classname="com.sskim.eatgo.interfaces.MenuItemControllerTest" time="0.005"/>
   <system-out><![CDATA[
   .   ____          _            __ _ _
@@ -12,13 +12,13 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.6.RELEASE)
 
-2020-05-14 15:43:07.437  INFO 51045 --- [    Test worker] c.s.e.interfaces.MenuItemControllerTest  : Starting MenuItemControllerTest on aaronkssui-MacBook-Pro.local with PID 51045 (started by aaron.kss in /Users/aaron.kss/dev/spring-demo-projects/eatgo/eatgo-admin-api)
-2020-05-14 15:43:07.437  INFO 51045 --- [    Test worker] c.s.e.interfaces.MenuItemControllerTest  : The following profiles are active: test
-2020-05-14 15:43:07.682  INFO 51045 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-05-14 15:43:07.765  INFO 51045 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2020-05-14 15:43:07.765  INFO 51045 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-05-14 15:43:07.771  INFO 51045 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
-2020-05-14 15:43:07.781  INFO 51045 --- [    Test worker] c.s.e.interfaces.MenuItemControllerTest  : Started MenuItemControllerTest in 0.368 seconds (JVM running for 4.071)
+2020-05-15 08:56:14.752  INFO 21378 --- [    Test worker] c.s.e.interfaces.MenuItemControllerTest  : Starting MenuItemControllerTest on aaronkssui-MacBook-Pro.local with PID 21378 (started by aaron.kss in /Users/aaron.kss/dev/spring-demo-projects/eatgo/eatgo-admin-api)
+2020-05-15 08:56:14.752  INFO 21378 --- [    Test worker] c.s.e.interfaces.MenuItemControllerTest  : The following profiles are active: test
+2020-05-15 08:56:14.945  INFO 21378 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-15 08:56:15.018  INFO 21378 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-15 08:56:15.018  INFO 21378 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-15 08:56:15.023  INFO 21378 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2020-05-15 08:56:15.031  INFO 21378 --- [    Test worker] c.s.e.interfaces.MenuItemControllerTest  : Started MenuItemControllerTest in 0.295 seconds (JVM running for 3.624)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

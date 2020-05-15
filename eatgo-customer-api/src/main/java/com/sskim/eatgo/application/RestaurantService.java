@@ -4,7 +4,9 @@ import com.sskim.eatgo.domain.*;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class RestaurantService {
@@ -33,8 +35,11 @@ public class RestaurantService {
         return restaurant;
     }
 
-    public List<Restaurant> getRestaurantList() {
-        return restaurantRepository.findAll();
+    public List<Restaurant> getRestaurantList(String region, Long categoryId) {
+
+        List<Restaurant> restaurants = restaurantRepository.findByAddressContainingAndCategoryId(region, categoryId);
+
+        return Optional.ofNullable(restaurants).orElse(Collections.emptyList());
     }
 
     public Restaurant addRestaurant(Restaurant restaurant) {

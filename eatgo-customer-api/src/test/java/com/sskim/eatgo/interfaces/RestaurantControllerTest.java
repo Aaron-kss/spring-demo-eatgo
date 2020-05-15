@@ -40,12 +40,13 @@ public class RestaurantControllerTest {
                 .id(1004L)
                 .name("Bob zip")
                 .address("Seoul")
+                .categoryId(1L)
                 .build();
 
         restaurantList.add(restaurant);
-        given(restaurantService.getRestaurantList()).willReturn(restaurantList);
+        given(restaurantService.getRestaurantList("Seoul", 1L)).willReturn(restaurantList);
         
-        mvc.perform(get("/restaurants"))
+        mvc.perform(get("/restaurants?region=Seoul&category=1"))
                 .andExpect(status().isOk())
                 .andExpect(content().string(
                         containsString("\"id\":1004")

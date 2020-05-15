@@ -1,6 +1,8 @@
 package com.sskim.eatgo.application;
 
-import com.sskim.eatgo.domain.*;
+import com.sskim.eatgo.domain.Restaurant;
+import com.sskim.eatgo.domain.RestaurantNotFoundException;
+import com.sskim.eatgo.domain.RestaurantRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
@@ -11,11 +13,9 @@ import java.util.List;
 import java.util.Optional;
 
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertThat;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.BDDMockito.given;
-import static org.mockito.Mockito.verify;
 
 public class RestaurantServiceTest {
 
@@ -37,6 +37,7 @@ public class RestaurantServiceTest {
                 .id(1004L)
                 .name("Bob zip")
                 .address("Seoul")
+                .categoryId(1L)
                 .build();
         restaurantList.add(restaurant);
         given(restaurantRepository.findAll()).willReturn(restaurantList);
@@ -67,12 +68,14 @@ public class RestaurantServiceTest {
         Restaurant restaurant = Restaurant.builder()
                 .name("Beyong")
                 .address("Busan")
+                .categoryId(1L)
                 .build();
 
         Restaurant saved = Restaurant.builder()
                 .id(1234L)
                 .name("Beyong")
                 .address("Busan")
+                .categoryId(1L)
                 .build();
 
 
@@ -90,6 +93,7 @@ public class RestaurantServiceTest {
                 .id(1004L)
                 .name("Bob zip")
                 .address("Seoul")
+                .categoryId(1L)
                 .build();
 
         given(restaurantRepository.findById(1004L))
