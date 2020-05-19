@@ -1,9 +1,7 @@
 package com.sskim.eatgo.application;
 
 import com.sskim.eatgo.domain.User;
-import com.sskim.eatgo.domain.UserExistedException;
 import com.sskim.eatgo.domain.UserRepository;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -16,18 +14,21 @@ public class UserService {
 
     private final UserRepository userRepository;
 
-    public UserService(UserRepository userRepository){
+    private final PasswordEncoder passwordEncoder;
+
+    public UserService(UserRepository userRepository,
+                       PasswordEncoder passwordEncoder){
         this.userRepository = userRepository;
+        this.passwordEncoder = passwordEncoder;
     }
 
     public User registerUser(String email, String name, String password) {
 
         Optional<User> existed = userRepository.findByEmail(email);
         if(existed.isPresent()) {
-            throw new UserExistedException(email);
+            throw new EmailExistedException(email);
         }
 
-        PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
         String encodePassword = passwordEncoder.encode(password);
 
         User user = User.builder()
@@ -38,5 +39,17 @@ public class UserService {
                 .build();
 
         return userRepository.save(user);
+    }
+
+    public User authenticate(String email, String password) {
+
+        User user = userRepository.findByEmail(email)
+                .orElseThrow(() -> new EmailNotExistedException(email));
+
+        if(!passwordEncoder.matches(password, user.getPassword())){
+            throw new PasswordWrongException();
+        }
+
+        return user;
     }
 }

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sskim.eatgo.interfaces.UserControllerTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-05-15T06:31:59" hostname="aaronkssui-MacBook-Pro.local" time="0.063">
+<testsuite name="com.sskim.eatgo.interfaces.UserControllerTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-05-19T06:00:58" hostname="aaronkssui-MacBook-Pro.local" time="0.058">
   <properties/>
   <testcase name="deactivate" classname="com.sskim.eatgo.interfaces.UserControllerTests" time="0.015"/>
-  <testcase name="create" classname="com.sskim.eatgo.interfaces.UserControllerTests" time="0.016"/>
-  <testcase name="update" classname="com.sskim.eatgo.interfaces.UserControllerTests" time="0.012"/>
-  <testcase name="list" classname="com.sskim.eatgo.interfaces.UserControllerTests" time="0.015"/>
+  <testcase name="create" classname="com.sskim.eatgo.interfaces.UserControllerTests" time="0.015"/>
+  <testcase name="update" classname="com.sskim.eatgo.interfaces.UserControllerTests" time="0.011"/>
+  <testcase name="list" classname="com.sskim.eatgo.interfaces.UserControllerTests" time="0.014"/>
   <system-out><![CDATA[
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,16 +14,16 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.6.RELEASE)
 
-2020-05-15 15:31:59.084  INFO 45374 --- [    Test worker] c.s.e.interfaces.UserControllerTests     : Starting UserControllerTests on aaronkssui-MacBook-Pro.local with PID 45374 (started by aaron.kss in /Users/aaron.kss/dev/spring-demo-projects/eatgo/eatgo-admin-api)
-2020-05-15 15:31:59.084  INFO 45374 --- [    Test worker] c.s.e.interfaces.UserControllerTests     : The following profiles are active: test
-2020-05-15 15:31:59.345  INFO 45374 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-05-15 15:31:59.447  INFO 45374 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2020-05-15 15:31:59.447  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-05-15 15:31:59.454  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
-2020-05-15 15:31:59.469  INFO 45374 --- [    Test worker] c.s.e.interfaces.UserControllerTests     : Started UserControllerTests in 0.404 seconds (JVM running for 3.693)
-2020-05-15 15:31:59.475  INFO 45374 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2020-05-15 15:31:59.476  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-05-15 15:31:59.477  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2020-05-19 15:00:58.422  INFO 39389 --- [    Test worker] c.s.e.interfaces.UserControllerTests     : Starting UserControllerTests on aaronkssui-MacBook-Pro.local with PID 39389 (started by aaron.kss in /Users/aaron.kss/dev/spring-demo-projects/eatgo/eatgo-admin-api)
+2020-05-19 15:00:58.422  INFO 39389 --- [    Test worker] c.s.e.interfaces.UserControllerTests     : The following profiles are active: test
+2020-05-19 15:00:58.809  INFO 39389 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-19 15:00:58.928  INFO 39389 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-19 15:00:58.928  INFO 39389 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-19 15:00:58.936  INFO 39389 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 8 ms
+2020-05-19 15:00:58.949  INFO 39389 --- [    Test worker] c.s.e.interfaces.UserControllerTests     : Started UserControllerTests in 0.566 seconds (JVM running for 4.454)
+2020-05-19 15:00:58.956  INFO 39389 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-19 15:00:58.956  INFO 39389 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-19 15:00:58.958  INFO 39389 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
 
 MockHttpServletRequest:
       HTTP Method = DELETE
@@ -61,9 +61,9 @@ MockHttpServletResponse:
     Forwarded URL = null
    Redirected URL = null
           Cookies = []
-2020-05-15 15:31:59.491  INFO 45374 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2020-05-15 15:31:59.491  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-05-15 15:31:59.493  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2020-05-19 15:00:58.970  INFO 39389 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-19 15:00:58.970  INFO 39389 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-19 15:00:58.972  INFO 39389 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
 
 MockHttpServletRequest:
       HTTP Method = POST
@@ -101,9 +101,9 @@ MockHttpServletResponse:
     Forwarded URL = null
    Redirected URL = /users/null
           Cookies = []
-2020-05-15 15:31:59.509  INFO 45374 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2020-05-15 15:31:59.509  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-05-15 15:31:59.510  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2020-05-19 15:00:58.986  INFO 39389 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-19 15:00:58.987  INFO 39389 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-19 15:00:58.988  INFO 39389 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
 
 MockHttpServletRequest:
       HTTP Method = PATCH
@@ -141,9 +141,9 @@ MockHttpServletResponse:
     Forwarded URL = null
    Redirected URL = /users/null
           Cookies = []
-2020-05-15 15:31:59.522  INFO 45374 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2020-05-15 15:31:59.523  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-05-15 15:31:59.524  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2020-05-19 15:00:58.998  INFO 39389 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-19 15:00:58.998  INFO 39389 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-19 15:00:58.999  INFO 39389 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
 
 MockHttpServletRequest:
       HTTP Method = GET
@@ -177,7 +177,7 @@ MockHttpServletResponse:
     Error message = null
           Headers = [Content-Type:"application/json;charset=UTF-8"]
      Content type = application/json
-             Body = [{"id":null,"email":"test@test.com","name":"테스터","level":100,"admin":true,"active":true}]
+             Body = [{"id":null,"email":"test@test.com","name":"테스터","level":100,"password":null,"admin":true,"active":true}]
     Forwarded URL = null
    Redirected URL = null
           Cookies = []

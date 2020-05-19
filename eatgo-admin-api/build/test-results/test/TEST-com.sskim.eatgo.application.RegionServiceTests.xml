@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sskim.eatgo.application.RegionServiceTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-15T06:31:57" hostname="aaronkssui-MacBook-Pro.local" time="0.018">
+<testsuite name="com.sskim.eatgo.application.RegionServiceTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-19T06:00:56" hostname="aaronkssui-MacBook-Pro.local" time="0.017">
   <properties/>
-  <testcase name="addRegion" classname="com.sskim.eatgo.application.RegionServiceTests" time="0.017"/>
-  <testcase name="getRegions" classname="com.sskim.eatgo.application.RegionServiceTests" time="0.0"/>
+  <testcase name="addRegion" classname="com.sskim.eatgo.application.RegionServiceTests" time="0.016"/>
+  <testcase name="getRegions" classname="com.sskim.eatgo.application.RegionServiceTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
