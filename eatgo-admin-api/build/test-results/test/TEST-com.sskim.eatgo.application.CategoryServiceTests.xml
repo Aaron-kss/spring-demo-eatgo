@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sskim.eatgo.application.CategoryServiceTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-14T23:56:12" hostname="aaronkssui-MacBook-Pro.local" time="0.021">
+<testsuite name="com.sskim.eatgo.application.CategoryServiceTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-15T06:31:57" hostname="aaronkssui-MacBook-Pro.local" time="0.02">
   <properties/>
-  <testcase name="addCategory" classname="com.sskim.eatgo.application.CategoryServiceTests" time="0.02"/>
+  <testcase name="addCategory" classname="com.sskim.eatgo.application.CategoryServiceTests" time="0.019"/>
   <testcase name="getCategories" classname="com.sskim.eatgo.application.CategoryServiceTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

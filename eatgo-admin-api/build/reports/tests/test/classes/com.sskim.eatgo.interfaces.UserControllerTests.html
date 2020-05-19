@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - UserControllerTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>UserControllerTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.sskim.eatgo.interfaces.html">com.sskim.eatgo.interfaces</a> &gt; UserControllerTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.058s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">create</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deactivate</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">list</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">update</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.6.RELEASE)
+
+2020-05-15 15:31:59.084  INFO 45374 --- [    Test worker] c.s.e.interfaces.UserControllerTests     : Starting UserControllerTests on aaronkssui-MacBook-Pro.local with PID 45374 (started by aaron.kss in /Users/aaron.kss/dev/spring-demo-projects/eatgo/eatgo-admin-api)
+2020-05-15 15:31:59.084  INFO 45374 --- [    Test worker] c.s.e.interfaces.UserControllerTests     : The following profiles are active: test
+2020-05-15 15:31:59.345  INFO 45374 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-15 15:31:59.447  INFO 45374 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-15 15:31:59.447  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-15 15:31:59.454  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
+2020-05-15 15:31:59.469  INFO 45374 --- [    Test worker] c.s.e.interfaces.UserControllerTests     : Started UserControllerTests in 0.404 seconds (JVM running for 3.693)
+2020-05-15 15:31:59.475  INFO 45374 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-15 15:31:59.476  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-15 15:31:59.477  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+
+MockHttpServletRequest:
+      HTTP Method = DELETE
+      Request URI = /users/1004
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.sskim.eatgo.interfaces.UserController
+           Method = com.sskim.eatgo.interfaces.UserController#delete(Long)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;text/plain;charset=UTF-8&quot;, Content-Length:&quot;2&quot;]
+     Content type = text/plain;charset=UTF-8
+             Body = {}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2020-05-15 15:31:59.491  INFO 45374 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-15 15:31:59.491  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-15 15:31:59.493  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /users
+       Parameters = {}
+          Headers = [Content-Type:&quot;application/json;charset=UTF-8&quot;, Content-Length:&quot;52&quot;]
+             Body = {&quot;email&quot;:&quot;admin@exmaple.com&quot;,&quot;name&quot;:&quot;Administrator&quot;}
+    Session Attrs = {}
+
+Handler:
+             Type = com.sskim.eatgo.interfaces.UserController
+           Method = com.sskim.eatgo.interfaces.UserController#create(User)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Location:&quot;/users/null&quot;, Content-Type:&quot;text/plain;charset=UTF-8&quot;, Content-Length:&quot;2&quot;]
+     Content type = text/plain;charset=UTF-8
+             Body = {}
+    Forwarded URL = null
+   Redirected URL = /users/null
+          Cookies = []
+2020-05-15 15:31:59.509  INFO 45374 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-15 15:31:59.509  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-15 15:31:59.510  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+
+MockHttpServletRequest:
+      HTTP Method = PATCH
+      Request URI = /users/1004
+       Parameters = {}
+          Headers = [Content-Type:&quot;application/json;charset=UTF-8&quot;, Content-Length:&quot;65&quot;]
+             Body = {&quot;email&quot;:&quot;admin@exmaple.com&quot;,&quot;name&quot;:&quot;Administrator&quot;, &quot;level&quot;:100}
+    Session Attrs = {}
+
+Handler:
+             Type = com.sskim.eatgo.interfaces.UserController
+           Method = com.sskim.eatgo.interfaces.UserController#update(Long, User)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Location:&quot;/users/null&quot;, Content-Type:&quot;text/plain;charset=UTF-8&quot;, Content-Length:&quot;2&quot;]
+     Content type = text/plain;charset=UTF-8
+             Body = {}
+    Forwarded URL = null
+   Redirected URL = /users/null
+          Cookies = []
+2020-05-15 15:31:59.522  INFO 45374 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-15 15:31:59.523  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-15 15:31:59.524  INFO 45374 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /users
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.sskim.eatgo.interfaces.UserController
+           Method = com.sskim.eatgo.interfaces.UserController#list()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json;charset=UTF-8&quot;]
+     Content type = application/json
+             Body = [{&quot;id&quot;:null,&quot;email&quot;:&quot;test@test.com&quot;,&quot;name&quot;:&quot;테스터&quot;,&quot;level&quot;:100,&quot;admin&quot;:true,&quot;active&quot;:true}]
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.3</a> at 2020. 5. 15 오후 3:32:03</p>
+</div>
+</div>
+</body>
+</html>

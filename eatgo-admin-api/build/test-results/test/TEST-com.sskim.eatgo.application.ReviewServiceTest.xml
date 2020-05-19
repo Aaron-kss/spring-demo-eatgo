@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sskim.eatgo.application.ReviewServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-14T23:56:12" hostname="aaronkssui-MacBook-Pro.local" time="0.018">
+<testsuite name="com.sskim.eatgo.application.ReviewServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-15T06:31:57" hostname="aaronkssui-MacBook-Pro.local" time="0.018">
   <properties/>
   <testcase name="getReviews" classname="com.sskim.eatgo.application.ReviewServiceTest" time="0.018"/>
   <system-out><![CDATA[]]></system-out>
