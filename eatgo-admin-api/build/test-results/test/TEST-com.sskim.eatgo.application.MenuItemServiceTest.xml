@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sskim.eatgo.application.MenuItemServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-19T06:00:55" hostname="aaronkssui-MacBook-Pro.local" time="0.371">
+<testsuite name="com.sskim.eatgo.application.MenuItemServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-20T00:37:57" hostname="aaronkssui-MacBook-Pro.local" time="0.381">
   <properties/>
-  <testcase name="getMenuItems" classname="com.sskim.eatgo.application.MenuItemServiceTest" time="0.364"/>
-  <testcase name="bulkUpdate" classname="com.sskim.eatgo.application.MenuItemServiceTest" time="0.007"/>
+  <testcase name="getMenuItems" classname="com.sskim.eatgo.application.MenuItemServiceTest" time="0.375"/>
+  <testcase name="bulkUpdate" classname="com.sskim.eatgo.application.MenuItemServiceTest" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

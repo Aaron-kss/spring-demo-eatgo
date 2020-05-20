@@ -4,6 +4,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+    open-in-view: false
 
 jwt:
   secret: 12345678901234567890123456789012

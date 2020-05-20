@@ -1,12 +1,13 @@
 package com.sskim.eatgo.application;
 
-import com.sskim.eatgo.application.ReviewService;
-import com.sskim.eatgo.domain.Review;
 import com.sskim.eatgo.domain.ReviewRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.verify;
 
 public class ReviewServiceTest {
 
@@ -23,12 +24,7 @@ public class ReviewServiceTest {
 
     @Test
     public void addReview(){
-        Review review = Review.builder()
-                .name("aaron")
-                .score(3)
-                .description("soso")
-                .build();
-
-        reviewService.addReview(1004L, review);
+        reviewService.addReview(1004L, "aaron",3,"so-so");
+        verify(reviewRepository).save(any());
     }
 }
