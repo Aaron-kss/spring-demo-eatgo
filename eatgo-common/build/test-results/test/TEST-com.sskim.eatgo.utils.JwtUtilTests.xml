@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sskim.eatgo.utils.JwtUtilTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-20T00:38:06" hostname="aaronkssui-MacBook-Pro.local" time="0.28">
+<testsuite name="com.sskim.eatgo.utils.JwtUtilTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-20T01:41:13" hostname="aaronkssui-MacBook-Pro.local" time="0.202">
   <properties/>
-  <testcase name="createToken" classname="com.sskim.eatgo.utils.JwtUtilTests" time="0.23"/>
-  <testcase name="getClaims" classname="com.sskim.eatgo.utils.JwtUtilTests" time="0.05"/>
+  <testcase name="getClaims" classname="com.sskim.eatgo.utils.JwtUtilTests" time="0.202"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

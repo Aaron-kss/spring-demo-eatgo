@@ -21,14 +21,14 @@ public class JwtUtilTests {
 
     @Test
     public void createToken(){
-        String token = jwtUtil.createToken(1004L, "John");
+        String token = jwtUtil.createToken(1004L, "John", null);
 
         assertThat(token, containsString("."));
     }
 
     @Test
     public void getClaims(){
-        String token = jwtUtil.createToken(1004L, "Tester");;
+        String token = jwtUtil.createToken(1004L, "Tester", null);
 
         Claims claims = jwtUtil.getClaims(token);
 

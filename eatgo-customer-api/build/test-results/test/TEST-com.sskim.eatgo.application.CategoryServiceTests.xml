@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sskim.eatgo.application.CategoryServiceTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-20T01:04:00" hostname="aaronkssui-MacBook-Pro.local" time="0.015">
+  <properties/>
+  <testcase name="getCategories" classname="com.sskim.eatgo.application.CategoryServiceTests" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

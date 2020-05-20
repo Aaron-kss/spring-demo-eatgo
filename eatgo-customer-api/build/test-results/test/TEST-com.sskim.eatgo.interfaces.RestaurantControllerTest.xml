@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sskim.eatgo.interfaces.RestaurantControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-20T01:04:03" hostname="aaronkssui-MacBook-Pro.local" time="0.044">
+  <properties/>
+  <testcase name="list" classname="com.sskim.eatgo.interfaces.RestaurantControllerTest" time="0.02"/>
+  <testcase name="detailWithNotExisted" classname="com.sskim.eatgo.interfaces.RestaurantControllerTest" time="0.011"/>
+  <testcase name="detailWithExisted" classname="com.sskim.eatgo.interfaces.RestaurantControllerTest" time="0.011"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.6.RELEASE)
+
+2020-05-20 10:04:03.513  INFO 10892 --- [    Test worker] c.s.e.i.RestaurantControllerTest         : Starting RestaurantControllerTest on aaronkssui-MacBook-Pro.local with PID 10892 (started by aaron.kss in /Users/aaron.kss/dev/spring-demo-projects/eatgo/eatgo-customer-api)
+2020-05-20 10:04:03.513  INFO 10892 --- [    Test worker] c.s.e.i.RestaurantControllerTest         : The following profiles are active: test
+2020-05-20 10:04:03.700  INFO 10892 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 13e2260a-3886-4a2f-a36b-5c399aa83323
+
+2020-05-20 10:04:03.736  INFO 10892 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4161e627, org.springframework.security.web.context.SecurityContextPersistenceFilter@590dfc1d, org.springframework.security.web.header.HeaderWriterFilter@1da862d6, org.springframework.security.web.authentication.logout.LogoutFilter@5ae89079, com.sskim.eatgo.filters.JwtAuthenticationFilter@7e2ea4f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57e99f7c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@989e985, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70812a01, org.springframework.security.web.session.SessionManagementFilter@7b83db81, org.springframework.security.web.access.ExceptionTranslationFilter@6efc02d2]
+2020-05-20 10:04:03.826  INFO 10892 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 10:04:03.943  INFO 10892 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-20 10:04:03.944  INFO 10892 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-20 10:04:03.951  INFO 10892 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
+2020-05-20 10:04:03.962  INFO 10892 --- [    Test worker] c.s.e.i.RestaurantControllerTest         : Started RestaurantControllerTest in 0.466 seconds (JVM running for 4.421)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

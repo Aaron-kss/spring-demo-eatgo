@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sskim.eatgo.interfaces.RegionControllerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-20T00:38:02" hostname="aaronkssui-MacBook-Pro.local" time="0.012">
+<testsuite name="com.sskim.eatgo.interfaces.RegionControllerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-20T01:03:54" hostname="aaronkssui-MacBook-Pro.local" time="0.011">
   <properties/>
-  <testcase name="create" classname="com.sskim.eatgo.interfaces.RegionControllerTests" time="0.007"/>
+  <testcase name="create" classname="com.sskim.eatgo.interfaces.RegionControllerTests" time="0.006"/>
   <testcase name="list" classname="com.sskim.eatgo.interfaces.RegionControllerTests" time="0.005"/>
   <system-out><![CDATA[
   .   ____          _            __ _ _
@@ -12,13 +12,13 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.6.RELEASE)
 
-2020-05-20 09:38:01.717  INFO 6340 --- [    Test worker] c.s.e.interfaces.RegionControllerTests   : Starting RegionControllerTests on aaronkssui-MacBook-Pro.local with PID 6340 (started by aaron.kss in /Users/aaron.kss/dev/spring-demo-projects/eatgo/eatgo-admin-api)
-2020-05-20 09:38:01.717  INFO 6340 --- [    Test worker] c.s.e.interfaces.RegionControllerTests   : The following profiles are active: test
-2020-05-20 09:38:01.932  INFO 6340 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-05-20 09:38:02.025  INFO 6340 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2020-05-20 09:38:02.025  INFO 6340 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-05-20 09:38:02.033  INFO 6340 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 8 ms
-2020-05-20 09:38:02.043  INFO 6340 --- [    Test worker] c.s.e.interfaces.RegionControllerTests   : Started RegionControllerTests in 0.341 seconds (JVM running for 5.208)
+2020-05-20 10:03:53.942  INFO 10871 --- [    Test worker] c.s.e.interfaces.RegionControllerTests   : Starting RegionControllerTests on aaronkssui-MacBook-Pro.local with PID 10871 (started by aaron.kss in /Users/aaron.kss/dev/spring-demo-projects/eatgo/eatgo-admin-api)
+2020-05-20 10:03:53.942  INFO 10871 --- [    Test worker] c.s.e.interfaces.RegionControllerTests   : The following profiles are active: test
+2020-05-20 10:03:54.142  INFO 10871 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 10:03:54.233  INFO 10871 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-20 10:03:54.234  INFO 10871 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-20 10:03:54.239  INFO 10871 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2020-05-20 10:03:54.248  INFO 10871 --- [    Test worker] c.s.e.interfaces.RegionControllerTests   : Started RegionControllerTests in 0.321 seconds (JVM running for 4.528)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
