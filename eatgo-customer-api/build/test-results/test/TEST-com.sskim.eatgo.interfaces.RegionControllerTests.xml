@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sskim.eatgo.interfaces.RegionControllerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-20T01:04:04" hostname="aaronkssui-MacBook-Pro.local" time="0.007">
+<testsuite name="com.sskim.eatgo.interfaces.RegionControllerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-20T05:42:02" hostname="aaronkssui-MacBook-Pro.local" time="0.008">
   <properties/>
-  <testcase name="list" classname="com.sskim.eatgo.interfaces.RegionControllerTests" time="0.007"/>
+  <testcase name="list" classname="com.sskim.eatgo.interfaces.RegionControllerTests" time="0.008"/>
   <system-out><![CDATA[
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -11,18 +11,18 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.6.RELEASE)
 
-2020-05-20 10:04:04.032  INFO 10892 --- [    Test worker] c.s.e.interfaces.RegionControllerTests   : Starting RegionControllerTests on aaronkssui-MacBook-Pro.local with PID 10892 (started by aaron.kss in /Users/aaron.kss/dev/spring-demo-projects/eatgo/eatgo-customer-api)
-2020-05-20 10:04:04.032  INFO 10892 --- [    Test worker] c.s.e.interfaces.RegionControllerTests   : The following profiles are active: test
-2020-05-20 10:04:04.209  INFO 10892 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+2020-05-20 14:42:02.499  INFO 33178 --- [    Test worker] c.s.e.interfaces.RegionControllerTests   : Starting RegionControllerTests on aaronkssui-MacBook-Pro.local with PID 33178 (started by aaron.kss in /Users/aaron.kss/dev/spring-demo-projects/eatgo/eatgo-customer-api)
+2020-05-20 14:42:02.499  INFO 33178 --- [    Test worker] c.s.e.interfaces.RegionControllerTests   : The following profiles are active: test
+2020-05-20 14:42:02.703  INFO 33178 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: ed0b4193-e362-4803-ba93-a7eb13664f06
+Using generated security password: bf434abe-86c7-4cfe-923c-0659e448f508
 
-2020-05-20 10:04:04.258  INFO 10892 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43add104, org.springframework.security.web.context.SecurityContextPersistenceFilter@1ac3ae05, org.springframework.security.web.header.HeaderWriterFilter@19fb91f2, org.springframework.security.web.authentication.logout.LogoutFilter@42c270e9, com.sskim.eatgo.filters.JwtAuthenticationFilter@c99c971, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@bd147e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ee0336b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7bf6bddb, org.springframework.security.web.session.SessionManagementFilter@620d2209, org.springframework.security.web.access.ExceptionTranslationFilter@7bcd49c6]
-2020-05-20 10:04:04.366  INFO 10892 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-05-20 10:04:04.472  INFO 10892 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2020-05-20 10:04:04.472  INFO 10892 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-05-20 10:04:04.479  INFO 10892 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
-2020-05-20 10:04:04.491  INFO 10892 --- [    Test worker] c.s.e.interfaces.RegionControllerTests   : Started RegionControllerTests in 0.479 seconds (JVM running for 4.949)
+2020-05-20 14:42:02.759  INFO 33178 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@51751a0d, org.springframework.security.web.context.SecurityContextPersistenceFilter@2a42b458, org.springframework.security.web.header.HeaderWriterFilter@722ec3c6, org.springframework.security.web.authentication.logout.LogoutFilter@d4fea0f, com.sskim.eatgo.filters.JwtAuthenticationFilter@2f674ce1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27df773c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@236ba0f2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e85ea8c, org.springframework.security.web.session.SessionManagementFilter@765cf6d8, org.springframework.security.web.access.ExceptionTranslationFilter@352706fa]
+2020-05-20 14:42:02.864  INFO 33178 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 14:42:02.962  INFO 33178 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-20 14:42:02.962  INFO 33178 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-20 14:42:02.968  INFO 33178 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
+2020-05-20 14:42:02.978  INFO 33178 --- [    Test worker] c.s.e.interfaces.RegionControllerTests   : Started RegionControllerTests in 0.497 seconds (JVM running for 6.021)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

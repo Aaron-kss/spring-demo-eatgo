@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sskim.eatgo.EatgoRestaurantApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-20T05:42:24" hostname="aaronkssui-MacBook-Pro.local" time="0.02">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.sskim.eatgo.EatgoRestaurantApplicationTests" time="0.02"/>
+  <system-out><![CDATA[2020-05-20 14:42:20.187  INFO 33211 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sskim.eatgo.EatgoRestaurantApplicationTests], using SpringBootContextLoader
+2020-05-20 14:42:20.188  INFO 33211 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.sskim.eatgo.EatgoRestaurantApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-05-20 14:42:20.188  INFO 33211 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.sskim.eatgo.EatgoRestaurantApplicationTests]: EatgoRestaurantApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-05-20 14:42:20.195  INFO 33211 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.sskim.eatgo.EatgoRestaurantApplication for test class com.sskim.eatgo.EatgoRestaurantApplicationTests
+2020-05-20 14:42:20.198  INFO 33211 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-05-20 14:42:20.199  INFO 33211 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@595af33b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@9ae75d0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3db49952, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@77aa1625, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7967f0c0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@31d0ac9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1afa7df1, org.springframework.test.context.event.EventPublishingTestExecutionListener@3dc64bb5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7b614d3d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@10c15bda, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@599db9c6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5689caa3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@27707dea]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.6.RELEASE)
+
+2020-05-20 14:42:20.250  INFO 33211 --- [    Test worker] c.s.e.EatgoRestaurantApplicationTests    : Starting EatgoRestaurantApplicationTests on aaronkssui-MacBook-Pro.local with PID 33211 (started by aaron.kss in /Users/aaron.kss/dev/spring-demo-projects/eatgo/eatgo-restaurant-api)
+2020-05-20 14:42:20.251  INFO 33211 --- [    Test worker] c.s.e.EatgoRestaurantApplicationTests    : The following profiles are active: test
+2020-05-20 14:42:20.576  INFO 33211 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-20 14:42:20.668  INFO 33211 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80ms. Found 7 JPA repository interfaces.
+2020-05-20 14:42:21.146  INFO 33211 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-20 14:42:21.225  INFO 33211 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-20 14:42:21.267  INFO 33211 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-20 14:42:21.382  INFO 33211 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-20 14:42:21.688  INFO 33211 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-20 14:42:21.715  INFO 33211 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-20 14:42:22.882  INFO 33211 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-20 14:42:22.894  INFO 33211 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-20 14:42:23.508  INFO 33211 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a50dd2d3-2efd-439a-84ad-1fb0fd644303
+
+2020-05-20 14:42:23.589  INFO 33211 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56fd7669, org.springframework.security.web.context.SecurityContextPersistenceFilter@180a4520, org.springframework.security.web.header.HeaderWriterFilter@9d32499, org.springframework.security.web.authentication.logout.LogoutFilter@632a277b, com.sskim.eatgo.filters.JwtAuthenticationFilter@4b48de42, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@76987f48, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@66ff6aee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7899c169, org.springframework.security.web.session.SessionManagementFilter@4796146, org.springframework.security.web.access.ExceptionTranslationFilter@43d5b53c]
+2020-05-20 14:42:24.113  INFO 33211 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 14:42:24.481  INFO 33211 --- [    Test worker] c.s.e.EatgoRestaurantApplicationTests    : Started EatgoRestaurantApplicationTests in 4.27 seconds (JVM running for 8.602)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.133s</div>
+<div class="counter">0.033s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,12 +79,12 @@
 </thead>
 <tr>
 <td class="success">createWithInValidAttributes</td>
-<td class="success">0.017s</td>
+<td class="success">0.018s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">createWithValidAttributes</td>
-<td class="success">0.116s</td>
+<td class="success">0.015s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -101,19 +101,19 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.6.RELEASE)
 
-2020-05-20 10:04:04.520  INFO 10892 --- [    Test worker] c.s.e.interfaces.ReviewControllerTest    : Starting ReviewControllerTest on aaronkssui-MacBook-Pro.local with PID 10892 (started by aaron.kss in /Users/aaron.kss/dev/spring-demo-projects/eatgo/eatgo-customer-api)
-2020-05-20 10:04:04.520  INFO 10892 --- [    Test worker] c.s.e.interfaces.ReviewControllerTest    : The following profiles are active: test
-2020-05-20 10:04:04.711  INFO 10892 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+2020-05-20 14:42:03.009  INFO 33178 --- [    Test worker] c.s.e.interfaces.ReviewControllerTest    : Starting ReviewControllerTest on aaronkssui-MacBook-Pro.local with PID 33178 (started by aaron.kss in /Users/aaron.kss/dev/spring-demo-projects/eatgo/eatgo-customer-api)
+2020-05-20 14:42:03.009  INFO 33178 --- [    Test worker] c.s.e.interfaces.ReviewControllerTest    : The following profiles are active: test
+2020-05-20 14:42:03.194  INFO 33178 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: c62ba782-e6f1-4270-8350-173ebeee5b2a
+Using generated security password: bcf043c1-4b39-47d4-aada-82ee560bcb3b
 
-2020-05-20 10:04:04.750  INFO 10892 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@426ee521, org.springframework.security.web.context.SecurityContextPersistenceFilter@2958b17b, org.springframework.security.web.header.HeaderWriterFilter@46b1dd5b, org.springframework.security.web.authentication.logout.LogoutFilter@2c3e3cf3, com.sskim.eatgo.filters.JwtAuthenticationFilter@7e9980ae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14ef4a27, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c7c06e4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3223ff9a, org.springframework.security.web.session.SessionManagementFilter@9f2b268, org.springframework.security.web.access.ExceptionTranslationFilter@6a6afc13]
-2020-05-20 10:04:04.835  INFO 10892 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-05-20 10:04:04.930  INFO 10892 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2020-05-20 10:04:04.930  INFO 10892 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2020-05-20 10:04:04.935  INFO 10892 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
-2020-05-20 10:04:04.943  INFO 10892 --- [    Test worker] c.s.e.interfaces.ReviewControllerTest    : Started ReviewControllerTest in 0.44 seconds (JVM running for 5.402)
-2020-05-20 10:04:05.077  WARN 10892 --- [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [2] in public org.springframework.http.ResponseEntity com.sskim.eatgo.interfaces.ReviewController.create(org.springframework.security.core.Authentication,java.lang.Long,com.sskim.eatgo.domain.Review) throws java.net.URISyntaxException: [Field error in object 'review' on field 'description': rejected value [null]; codes [NotEmpty.review.description,NotEmpty.description,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [review.description,description]; arguments []; default message [description]]; default message [must not be empty]] ]
+2020-05-20 14:42:03.236  INFO 33178 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@36be078e, org.springframework.security.web.context.SecurityContextPersistenceFilter@200a3022, org.springframework.security.web.header.HeaderWriterFilter@6a42ac67, org.springframework.security.web.authentication.logout.LogoutFilter@345bd172, com.sskim.eatgo.filters.JwtAuthenticationFilter@3ecf27ce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fdda750, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10830f58, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70b6d591, org.springframework.security.web.session.SessionManagementFilter@4c332884, org.springframework.security.web.access.ExceptionTranslationFilter@75474bf8]
+2020-05-20 14:42:03.341  INFO 33178 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-20 14:42:03.434  INFO 33178 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-20 14:42:03.434  INFO 33178 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-20 14:42:03.440  INFO 33178 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
+2020-05-20 14:42:03.450  INFO 33178 --- [    Test worker] c.s.e.interfaces.ReviewControllerTest    : Started ReviewControllerTest in 0.458 seconds (JVM running for 6.492)
+2020-05-20 14:42:03.484  WARN 33178 --- [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [2] in public org.springframework.http.ResponseEntity com.sskim.eatgo.interfaces.ReviewController.create(org.springframework.security.core.Authentication,java.lang.Long,com.sskim.eatgo.domain.Review) throws java.net.URISyntaxException: [Field error in object 'review' on field 'description': rejected value [null]; codes [NotEmpty.review.description,NotEmpty.description,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [review.description,description]; arguments []; default message [description]]; default message [must not be empty]] ]
 </pre>
 </span>
 </div>
@@ -125,7 +125,7 @@ Using generated security password: c62ba782-e6f1-4270-8350-173ebeee5b2a
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.3</a> at 2020. 5. 20 오전 10:04:08</p>
+<a href="http://www.gradle.org">Gradle 6.3</a> at 2020. 5. 20 오후 2:42:06</p>
 </div>
 </div>
 </body>

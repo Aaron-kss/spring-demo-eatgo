@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sskim.eatgo.application.RegionServiceTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-20T01:04:00" hostname="aaronkssui-MacBook-Pro.local" time="0.013">
+<testsuite name="com.sskim.eatgo.application.RegionServiceTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-20T05:41:58" hostname="aaronkssui-MacBook-Pro.local" time="0.013">
   <properties/>
   <testcase name="getRegions" classname="com.sskim.eatgo.application.RegionServiceTests" time="0.013"/>
   <system-out><![CDATA[]]></system-out>

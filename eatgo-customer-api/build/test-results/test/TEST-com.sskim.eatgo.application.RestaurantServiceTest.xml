@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sskim.eatgo.application.RestaurantServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-20T01:04:00" hostname="aaronkssui-MacBook-Pro.local" time="0.341">
+<testsuite name="com.sskim.eatgo.application.RestaurantServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-20T05:41:58" hostname="aaronkssui-MacBook-Pro.local" time="0.43">
   <properties/>
-  <testcase name="addRestaurant" classname="com.sskim.eatgo.application.RestaurantServiceTest" time="0.332"/>
-  <testcase name="getRestaurantWithNotExisted" classname="com.sskim.eatgo.application.RestaurantServiceTest" time="0.001"/>
+  <testcase name="addRestaurant" classname="com.sskim.eatgo.application.RestaurantServiceTest" time="0.418"/>
+  <testcase name="getRestaurantWithNotExisted" classname="com.sskim.eatgo.application.RestaurantServiceTest" time="0.002"/>
   <testcase name="getRestaurantList" classname="com.sskim.eatgo.application.RestaurantServiceTest" time="0.001"/>
-  <testcase name="getRestaurantWithExisted" classname="com.sskim.eatgo.application.RestaurantServiceTest" time="0.005"/>
+  <testcase name="getRestaurantWithExisted" classname="com.sskim.eatgo.application.RestaurantServiceTest" time="0.007"/>
   <testcase name="updateRestaurant" classname="com.sskim.eatgo.application.RestaurantServiceTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
