@@ -1,6 +1,5 @@
 package com.sskim.eatgo.application;
 
-
 import com.sskim.eatgo.domain.MenuItem;
 import com.sskim.eatgo.domain.MenuItemRepository;
 import org.springframework.stereotype.Service;
